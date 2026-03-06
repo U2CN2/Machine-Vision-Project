@@ -18,5 +18,5 @@ def robot_coordinates():
     img_pts = object_detection()
     for x,y in img_pts:
         X, Y = pixel_to_robot(x,y,H)
-        target_points.append([X, Y,-165,0])
+        target_points.append([X, Y,-156,0])
     return target_points
